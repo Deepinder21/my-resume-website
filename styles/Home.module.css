@@ -1,0 +1,73 @@
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header */
+.header {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #0070f3;
+}
+
+/* Paragraph */
+.description {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Navigation */
+.nav {
+  margin-bottom: 20px;
+}
+
+.navLink {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+/* Links */
+.link {
+  color: #0070f3;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Profile Image */
+.profileImage {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .header {
+    font-size: 2em;
+  }
+
+  .description {
+    font-size: 1em;
+  }
+
+  .navLink {
+    margin: 0 10px;
+  }
+}

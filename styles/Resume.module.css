@@ -1,0 +1,56 @@
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header */
+.header {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #0070f3;
+  text-align: center;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 30px;
+}
+
+/* Sub-headers */
+.subHeader {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Paragraphs */
+.paragraph {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .header {
+    font-size: 2em;
+  }
+
+  .subHeader {
+    font-size: 1.5em;
+  }
+
+  .paragraph {
+    font-size: 1em;
+  }
+}
